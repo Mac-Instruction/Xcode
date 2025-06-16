@@ -23,6 +23,7 @@ struct ContentView: View {
     }
     
     var body: some View {
+        MyClosure()
         VStack {
             if menu == "초밥" || menu == "마라탕" {
                 Text("내가 제일 좋아하는 \(menu!)")
